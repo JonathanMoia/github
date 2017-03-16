@@ -87,12 +87,3 @@ Este é um repositório teste para verificar como o  Git funciona.
 	Estes são comandos de Git, utilizados no Git.CMD
 	
 		*
-		*
-		*
-		*
-		*
-		*
-		*
-		*
-		*
-		*
