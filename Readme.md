@@ -169,6 +169,38 @@ Este é um repositório teste para verificar como o  Git funciona.
 		git rebase "nome do branch"
 		Faz o rebase do branch descrito para o atual.
 		
+	
+	[Git Stash]
+		Guarda o arquivo atual que ainda não foi commited num status paralelo, WIP - Working In Progress.
+		Exemplo de uso: Digamos que eu precise ir para outro Branch, mas não quero commitar meus arquivos pq nao os terminei, então adiciono os arquivos ao git stath.
+		
+		*
+		git stash
+		Guarda a modificação do arquivo atual num status WIP.
+		
+		*
+		git stash apply
+		Aplica as mudanças que eu tinha guardado
+		
+		*
+		git stash list
+		Lista meus arquivos no WIP
+		
+		*
+		git stash clear
+		Limpa meus arquivos da lista do WIP
+		
+		
+	[Alias]
+		Posso configurar atalhos no teclado, por exemplo, ao invés de passar git status, posso passar git seja
+		
+		*
+		git config --global alias.s status
+		Associa o s ao status, permitindo que eu passe apenas git s ao invés de git status
+		
+		
+		
+		
 			
 			
 			
