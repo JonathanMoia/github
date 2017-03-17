@@ -110,33 +110,36 @@ Este é um repositório teste para verificar como o  Git funciona.
 		*
 		git push origin master
 		Envia para o repositório de para o ORIGIN para o MASTER
+	
+	
+	[Branch]
+		Branch é um ponteiro móvel que leva a um commit.
+		Posso apontar um outro Branch para o mesmo commit, ou ter Branchs em commits diferentes
+		
+			* Vantagens
+				Posso modificar meus arquivos sem alterar meu local principal, meu master
+				Por exemplo, posso corrigir um Bug enquanto tem outras pessoas trabalhando no Branch Master
+				Ele é facilmente desligável
+				Posso ter multiplas pessoas trabalhando
+				Evita conflito, pois cada branch não interfere em outro e o commit dele para o master entra somente no ponto de destino na linha do tempo, sem conflito com outros usuário, permite tbm a mescla de arquivos alterados.
+				
+				
+		*
+		git checkout -b "nome do branch"
+		Cria um novo branch e me posiciona nele.
 		
 		*
-		git 
+		git branch
+		Mostra os branch existentes e mostra o asterisco no branch onde estou no momento
 		
+		*
+		git checkout "nome do branch"
+		Mudo de branch
 		
+		*
+		git branch -D "nome do branch"
+		Deleta o branch indicado
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		*
+				
+	
