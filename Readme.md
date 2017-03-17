@@ -180,15 +180,15 @@ Este é um repositório teste para verificar como o  Git funciona.
 		
 		*
 		git stash apply
-		Aplica as mudanças que eu tinha guardado
+		Aplica as mudanças que eu tinha guardado.
 		
 		*
 		git stash list
-		Lista meus arquivos no WIP
+		Lista meus arquivos no WIP.
 		
 		*
 		git stash clear
-		Limpa meus arquivos da lista do WIP
+		Limpa meus arquivos da lista do WIP.
 		
 		
 	[Alias]
@@ -196,7 +196,18 @@ Este é um repositório teste para verificar como o  Git funciona.
 		
 		*
 		git config --global alias.s status
-		Associa o s ao status, permitindo que eu passe apenas git s ao invés de git status
+		Associa o s ao status, permitindo que eu passe apenas git s ao invés de git status.
+		
+	[Tag]
+		Crio tags para faciliar minhas marcações. Por exemplo, ao final de uma alteração de um arquivo, ao encerrá-lo, posso marcar uma tag de fechamento para faciliar a localização posteriormente.
+		
+		*
+		git tag -a 1.0.0 -m "Readme.md finalizado"
+		Inferi a tag anotated, com um message ao arquivo atual.
+		
+		*
+		git push origin master --tags
+		Levo as tags para o GitHub, incrementando a aba RELEASE com a versão do arquivo que eu subi.
 		
 		
 		
