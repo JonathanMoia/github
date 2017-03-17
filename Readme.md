@@ -216,11 +216,12 @@ Este é um repositório teste para verificar como o  Git funciona.
 		*
 		
 	[Revert]
-		Volta o commit, salvando minha sexta feira!!! uhuu
+		Revert o commit, salvando minha sexta feira!!! uhuu
+		Ele volta o código anterior, mas me permite dar um checkout no commit estragado para vê-lo depois.
 		
 		*
 		git revert "passo a hash do git que eu qro sumir com ele"
-		Volta para o commit anterior ao que eu passar na hash
+		Revert para o commit anterior ao que eu passar na hash
 		
 		
 		
