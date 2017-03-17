@@ -214,7 +214,15 @@ Este é um repositório teste para verificar como o  Git funciona.
 		Vejo todas as tags geradas.
 		
 		*
-		quebrou
+		
+	[Revert]
+		Volta o commit, salvando minha sexta feira!!! uhuu
+		
+		*
+		git revert "passo a hash do git que eu qro sumir com ele"
+		Volta para o commit anterior ao que eu passar na hash
+		
+		
 		
 		
 			
