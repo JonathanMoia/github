@@ -198,6 +198,7 @@ Este é um repositório teste para verificar como o  Git funciona.
 		git config --global alias.s status
 		Associa o s ao status, permitindo que eu passe apenas git s ao invés de git status.
 		
+
 	[Tag]
 		Crio tags para faciliar minhas marcações. Por exemplo, ao final de uma alteração de um arquivo, ao encerrá-lo, posso marcar uma tag de fechamento para faciliar a localização posteriormente.
 		
@@ -214,6 +215,7 @@ Este é um repositório teste para verificar como o  Git funciona.
 		Vejo todas as tags geradas.
 		
 		*
+
 		
 	[Revert]
 		Revert o commit, salvando minha sexta feira!!! uhuu
@@ -224,12 +226,29 @@ Este é um repositório teste para verificar como o  Git funciona.
 		Revert para o commit anterior ao que eu passar na hash
 		
 		
+	[Apagando Tag e Branch no repositório remoto]
+		*
+		git tag -D '1.0.0'
+		Deleto a tag do Local
+		
+		*
+		git push origin :1.0.0
+		:tag que quero apagar e apaga a tag
+		
+		git push origin :branch-alternativo
+		Apago o branch da mesma forma que a tag, com :
 		
 		
-			
-			
-			
+[==========   ]
+[============ ]
+[===       ===]
+[==         ==]
+[==        ===]
+[============ ]
+[===========  ]
+[===   ====   ]
+[===    ====  ]
+[===     ==== ]
 		
+
 		
-				
-	
