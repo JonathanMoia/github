@@ -68,11 +68,11 @@ Este é um repositório teste para verificar como o  Git funciona.
 		
 		*
 		git reset HEAD
-		Remove do staged, que é quando eu faço git add no arquivo
+		Remove do staged, que é quando eu faço git add no arquivo.
 		
 		*
 		git reset --soft [passo a hash do arquivo anterior ao q eu quero deletar]
-		Deleta do último commited até a hash que vc passar mas o arquivo fica em staged preparado para o commit de novo
+		Deleta do último commited até a hash que vc passar mas o arquivo fica em staged preparado para o commit de novo, ou seja, retorna o commit.
 		
 		*
 		git reset --mixed [passo a hash do arquivo anterior ao q eu quero deletar]
@@ -80,7 +80,7 @@ Este é um repositório teste para verificar como o  Git funciona.
 		
 		*
 		git reset --hard [passo a hash do arquivo anterior ao q eu quero deletar]
-		Mata o commit e qualque modificação
+		Mata o commit e qualque modificação, ou seja, mata o commit e volta para um ponto definido.
 		
 		
 [GitHub]
@@ -209,6 +209,11 @@ Este é um repositório teste para verificar como o  Git funciona.
 		git push origin master --tags
 		Levo as tags para o GitHub, incrementando a aba RELEASE com a versão do arquivo que eu subi.
 		
+		*
+		git tag
+		Vejo todas as tags geradas.
+		
+		*
 		
 		
 		
