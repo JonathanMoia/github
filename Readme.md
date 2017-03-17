@@ -140,6 +140,39 @@ Este é um repositório teste para verificar como o  Git funciona.
 		git branch -D "nome do branch"
 		Deleta o branch indicado
 		
+	
+	[Merge e Rebase]
+		.União dos Branchs.Mescla de arquivos.
+		
+		[Merge]
+			Mescla os arquivos
+			Pró -> Operação não destrutiva
+			Contra <- Commit extra no final do projeto, que serve para encerrar o ciclo dos branchs
+			Contra <- Deixa o histórico poluído, deixando complicado de entender as ramificações
+			* Ideal para times
+		[Rebase]
+			Pega tudo que estiver em outros branchs e adiciona na frente, cada um na frente do outro, no branch master, o que faz permanecer de forma linear, não gerando a confusao do merge e suas ramificações.
+			Pró -> Evita commit extra
+			Pró -> Histórico linear
+			Contra <- Perde a ordem cronológica, pq o commit sempre entra no inicio da fila.
+			* Ideal para uso onde tenho sincronicidade de entrega e delegação... uma entrega para outra delegação
+		
 		*
+		git checkout "nome do branch"
+		Muda de branch
+		
+		*
+		git merge "nome do branch"
+		Faz o merge do branch descrito para o atual.
+		
+		*
+		git rebase "nome do branch"
+		Faz o rebase do branch descrito para o atual.
+		
+			
+			
+			
+		
+		
 				
 	
