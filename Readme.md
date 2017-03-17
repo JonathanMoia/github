@@ -87,3 +87,56 @@ Este é um repositório teste para verificar como o  Git funciona.
 	Estes são comandos de Git, utilizados no Git.CMD
 	
 		*
+		Criar Repositório -> No próprio GitHub
+		
+		*
+		O próprio GitHub te passa os comando para o CLI
+		O nome 'origin' é um nome do repositório original que poderia ser substituido por qq nome.
+		
+		*
+		git remote
+		Mostra os repositórios disponíveis
+		
+		*
+		git remote -v
+		Mostra as opções do repositório
+		
+		*
+		git push -u origin master
+		Envia todos meus arquivos, as moficações para o repositório. O -u serve para trackear e não ter que digitar isso tudo de novo no próximo push. 
+		origin -> pra onde vai. master -> de onde vem. Ou seja, vem do branch MASTER e vai pro ORIGIN.
+		
+		
+		*
+		git push origin master
+		Envia para o repositório de para o ORIGIN para o MASTER
+		
+		*
+		git 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
